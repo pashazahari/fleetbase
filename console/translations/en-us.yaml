@@ -16,6 +16,7 @@ common:
   confirm: Confirm
   edit: Edit
   save: Save
+  save-changes: Save Changes
   cancel: Cancel
   2fa-config: 2FA Config
   account: Account
@@ -59,6 +60,7 @@ common:
   users: Users
   changelog: Changelog
   ok: OK
+  select-file: Select File
 component:
   file:
     dropdown-label: File actions
@@ -202,6 +204,22 @@ console:
       phone: Your phone number.
       photos: photos
   admin:
+    schedule-monitor:
+      schedule-monitor: Schedule Monitor
+      task-logs-for: >-
+        Task Logs For: 
+      showing-last-count: Showing last {count} logs
+      name: Name
+      type: Type
+      timezone: Timezone
+      last-started: Last Started
+      last-finished: Last Finished
+      last-failure: Last Failure
+      date: Date
+      memory: Memory
+      runtime: Runtime
+      output: Output
+      no-output: No output
     config:
       database:
         title: Database Configuration
